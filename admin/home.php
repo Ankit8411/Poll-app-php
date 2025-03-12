@@ -14,10 +14,6 @@
       <h1><b>
       📜 Dashboard 📜
       </b></h1>
-      <ol class="breadcrumb" style="color:black ; font-size: 17px; font-family:Times">
-        <li><a href="#"><i class="fa fa-dashboard" ></i> Home</a></li>
-        <li class="active" style="color:black ; font-size: 17px; font-family:Times" >Dashboard</li>
-      </ol>
     </section>
 
     <!-- Main content -->
@@ -135,10 +131,7 @@
       <div class="row" style="color:black ; font-size: 17px; font-family:Times">
         <div class="col-xs-12" >
           <h3> <b>VOTES TALLY
-            <span class="pull-right">
-            
-              <a href="print.php" class="btn btn-success btn-sm btn-curve" style="background-color: #2E8B57 ;color:black ; font-size: 12px; font-family:Times "><span class="glyphicon glyphicon-print"></span> Print</a>
-            </span>
+  
          </b> </h3>
         </div>
       </div>
@@ -189,7 +182,7 @@
     $carray = array();
     $varray = array();
     while($crow = $cquery->fetch_assoc()){
-      array_push($carray, $crow['lastname']);
+      array_push($carray, $crow['firstname']);
       $sql = "SELECT * FROM votes WHERE candidate_id = '".$crow['id']."'";
       $vquery = $conn->query($sql);
       array_push($varray, $vquery->num_rows);
