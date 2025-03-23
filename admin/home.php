@@ -59,7 +59,8 @@
               <i class="fa fa-cog"></i>
             </div>
             
-            <a href="positions.php" class="small-box-footer " style="background-color:#4682B4 ; color:black ; font-size:18px">More info <i class="fa fa-arrow-right"></i></a>
+            <a href="positions.php" class="small-box-footer " style="background-color:#4682B4 ; color:black ; font-size:18px">More info 
+              <i class="fa fa-arrow-right"></i></a>
           </div>
           
         </div>
@@ -82,7 +83,8 @@
              <i class="fa fa-black-tie"></i>
              
             </div>
-            <a href="candidates.php" class="small-box-footer" style="background-color:	#8B4513 ;color:black ; font-size: 18px">More info <i class="fa fa-arrow-right"></i></a>
+            <a href="candidates.php" class="small-box-footer" style="background-color:	#8B4513 ;color:black ; font-size: 18px">More info
+               <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -102,7 +104,8 @@
             <div class="icon">
               <i class="fa fa-users"></i>
             </div>
-            <a href="voters.php" class="small-box-footer "style="background-color:  #96837E ;color:black ; font-size: 18px">More info <i class="fa fa-arrow-right"></i></a>
+            <a href="voters.php" class="small-box-footer "style="background-color:  #96837E ;color:black ; font-size: 18px">More info
+               <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -122,7 +125,8 @@
             <div class="icon">
               <i class="fa fa-edit"></i>
             </div>
-            <a href="votes.php" class="small-box-footer "style="background-color: #2F4F4F ;color:black ; font-size: 18px">More info <i class="fa fa-arrow-right"></i></a>
+            <a href="votes.php" class="small-box-footer "style="background-color: #2F4F4F ;color:black ; font-size: 18px">More info 
+              <i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
